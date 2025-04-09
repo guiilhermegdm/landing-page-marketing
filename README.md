@@ -18,8 +18,10 @@ Uma landing page moderna e responsiva para uma agência de marketing. Desenvolvi
 
 ## 📸 Preview
 
-![marketing-creativo-preview](./components/mockups/laptop-mockup.png)
-![marketing-creativo-preview](./components/mockups/celular-mockup-Photoroom.png)
+<p align="center">
+  <img src="./components/mockups/laptop-mockup.png" alt="Mockup em notebook" width="500"/>
+</p>
 
-
-
+<p align="center">
+  <img src="./components/mockups/celular-mockup-Photoroom.png" alt="Mockup em celular" width="250"/>
+</p>
