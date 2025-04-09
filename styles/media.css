@@ -1,0 +1,44 @@
+/* Arquivo de responsividade */
+
+@media screen and (max-width:860px /* Estilos serão aplicados para a tela que vai até no máximo 860px*/) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header #title h1 {
+        text-align: center;
+    }
+
+    header nav {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    header nav a:last-child {
+         display: grid;
+        
+    }
+
+    main {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    main section h2 {
+        font-size: 48px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    img {
+        display: none; /* Faz a imagem desaparecer */
+    }
+
+
+
+}

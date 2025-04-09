@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: rgb(34, 34, 34);
+    --text: white;
+    --purple: #690090;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Poppins", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#title h1 {
+    font-weight: 400;
+}
+
+header nav a {
+    color: var(--text);
+    text-decoration: none;
+    margin: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+header nav a:hover {
+    color: var(--purple);
+}
+
+nav a:last-child {
+    border: 2px solid var(--purple);
+    border-radius: 15px;
+    padding: 10px 25px;
+}
+
+nav a:last-child:hover {
+    color: var(--text);
+    background-color: var(--purple);
+}
+
+main {
+    display: flex;
+    margin-top: 100px;
+}
+
+main section h2 {
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+main section h2 span {
+    color: var(--purple);
+}
+
+main section p {
+    line-height: 20px;
+    max-width: 500px;
+    font-weight: 300;
+}
+
+main figure img {
+    width: 612px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%; /* Por padrão o <form> ocupa 100% do tamanho da div ( o elemento pai dele ). */
+}
+
+form [type="submit"] { /* Seleciona o input através do tipo dele*/
+    height: 50px;
+    width: 50%;
+    background-color: var(--purple);
+    color: var(--text);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
